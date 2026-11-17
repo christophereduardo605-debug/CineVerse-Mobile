@@ -1,0 +1,16 @@
+const filmes = [
+ { id:"codigo-sombrio", titulo:"Código Sombrio", ano:2025, genero:"Suspense", classificacao:"16", sinopse:"Uma investigação perigosa revela segredos que deveriam permanecer escondidos.", destaque:true, poster:"/assets/posters/codigo-sombrio.png", tipo:"filme" },
+ { id:"alem-do-horizonte", titulo:"Além do Horizonte", ano:2024, genero:"Ficção científica", classificacao:"12", sinopse:"Uma jornada além dos limites conhecidos transforma o destino de seus protagonistas.", destaque:false, poster:"/assets/posters/alem-do-horizonte.png", tipo:"filme" },
+ { id:"distrito-neon", titulo:"Distrito Neon", ano:2025, genero:"Ação", classificacao:"14", sinopse:"Em uma cidade futurista, uma descoberta ameaça mudar a ordem de toda a sociedade.", destaque:true, poster:"/assets/posters/distrito-neon.png", tipo:"filme" },
+ { id:"ultimo-sinal", titulo:"Último Sinal", ano:2023, genero:"Mistério", classificacao:"14", sinopse:"Um sinal misterioso desencadeia acontecimentos que ninguém consegue explicar.", destaque:true, poster:"/assets/posters/ultimo-sinal.png", tipo:"filme" },
+ { id:"o-observador", titulo:"O Observador", ano:2025, genero:"Drama", classificacao:"16", sinopse:"Uma presença desconhecida acompanha cada movimento, transformando o medo em realidade.", destaque:false, poster:"/assets/posters/o-observador.png", tipo:"filme" },
+ { id:"entre-mundos", titulo:"Entre Mundos", ano:2024, genero:"Fantasia", classificacao:"12", sinopse:"Dois mundos se encontram em uma aventura repleta de mistérios e descobertas.", destaque:false, poster:"/assets/posters/entre-mundos.png", tipo:"filme" },
+ { id:"vertice", titulo:"VÉRTICE", ano:2025, genero:"Suspense", classificacao:"14", sinopse:"Uma jornada intensa entre mistérios, escolhas e descobertas que podem mudar tudo.", destaque:true, poster:null, tipo:"filme" }
+];
+const series = [
+ { id:"inverno-eterno", titulo:"Inverno Eterno", ano:2025, genero:"Drama", temporadas:1, sinopse:"Em um mundo marcado por um inverno sem fim, um grupo de sobreviventes enfrenta desafios e descobre segredos sobre o que aconteceu.", poster:"/assets/posters/inverno-eterno.png", tipo:"serie", episodios:["O Começo do Frio","Além da Neve","Segredos Congelados","O Último Refúgio"] },
+ { id:"cidade-oculta", titulo:"Cidade Oculta", ano:2025, genero:"Suspense", temporadas:1, sinopse:"Uma cidade aparentemente tranquila esconde mistérios que começam a surgir após acontecimentos inexplicáveis.", poster:"/assets/posters/cidade-oculta.png", tipo:"serie", episodios:["O Desaparecimento","Ruas Silenciosas","Pistas Escondidas","A Verdade"] },
+ { id:"fronteira-zero", titulo:"Fronteira Zero", ano:2024, genero:"Aventura", temporadas:1, sinopse:"Em uma região onde as regras deixaram de existir, uma equipe precisa enfrentar perigos para completar sua missão.", poster:"/assets/posters/fronteira-zero.png", tipo:"serie", episodios:["A Missão","Território Desconhecido","Sem Retorno","Fronteira Final"] },
+ { id:"mare-negra", titulo:"Maré Negra", ano:2025, genero:"Mistério", temporadas:1, sinopse:"Após eventos misteriosos no litoral, uma investigação revela segredos que ameaçam toda uma comunidade.", poster:"/assets/posters/mare-negra.png", tipo:"serie", episodios:["O Primeiro Sinal","Águas Profundas","O Segredo","A Última Maré"] }
+];
+module.exports={filmes,series};

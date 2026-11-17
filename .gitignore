@@ -39,3 +39,8 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+/backend/.env
+/backend/cineverse_backup.sql
+/frontend/.env
+/frontend/dist-ios-teste/
